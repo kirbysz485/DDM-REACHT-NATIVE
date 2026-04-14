@@ -6,12 +6,12 @@ export default function HomeScreen() {
       style={styles.fundo}
       contentContainerStyle={styles.Container}
     >
-      <Text style={[styles.roxo, styles.pequeno]}> roxo pequeno </Text>
+      <Text style={[styles.verde, styles.pequeno]}> roxo pequeno </Text>
       <Text style={[styles.roxo, styles.medio, styles.negrito]}> roxo médio em negrito </Text>
-      <Text style={[styles.vermelho, styles.grande, styles.italico]}> vermelho grande em italico </Text>
-      <Text style={[styles.amarelo, styles.pequeno, styles.sublinho]}> amarelo pequeno e sublinhado </Text>
+      <Text style={[styles.amarelo, styles.grande, styles.sublinho]}> vermelho grande em italico </Text>
+      <Text style={[styles.vermelho, styles.pequeno, styles.italico]}> amarelo pequeno e sublinhado </Text>
       <Text style={[styles.amarelo, styles.medio]}> amarelo médio </Text>
-      <Text style={[styles.verde, styles.grande, styles.negrito]}>verde grande em negrito </Text>
+      <Text style={[styles.roxo, styles.grande, styles.negrito]}>verde grande em negrito </Text>
       <Text style={[styles.vermelho, styles.pequeno, styles.italico]}>vermelho pequeno em itálico </Text>
     </ScrollView>
   );
